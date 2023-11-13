@@ -1,0 +1,8 @@
+title: Jia Haoyu - Code Enthusiast
+description: This is a personal blog of Jia Haoyu (@OldVincent).
+remote_theme: pages-themes/cayman@v0.2.0
+
+show_downloads: false
+
+plugins:
+- jekyll-remote-theme
