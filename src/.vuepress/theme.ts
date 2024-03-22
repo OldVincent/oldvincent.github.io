@@ -20,7 +20,7 @@ export default hopeTheme({
   repoDisplay: false,
 
   // 页脚
-  footer: "Page is limited, whereas imagination is not.",
+  footer: "Page is limited, whereas creativity is not.",
   displayFooter: true,
 
   docsRepo: "OldVincent/oldvincent.github.io",
