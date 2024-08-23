@@ -12,15 +12,16 @@ tag:
 
 Usually there will be containers and images which are no longer in use, yet their creators just forgot to remove them, left them to remain in servers as 'Status: Exited, Last Used: 3 Years Ago'. Unused containers will hold up their images, and every image of those no longer used old versions will hold up 3~5GB disk space.
 
-Do server maintainers need to manually remove these unattened containers and images? Do server maintainers need to write some automatic scripts for this boring operation? The answer is: probably no. Docker has already provided useful commands to cleanup these cyber waste and release unused resource.
+Do server maintainers need to manually remove these unattended containers and images? Do server maintainers need to 
+write some automatic scripts for this boring operation? The answer is: probably no. Docker has already provided useful commands to cleanup these cyber waste and release unused resource.
 
-## What to Cleanup
+## What to Clean Up
 
 Usually, containers that has exited naturally (not because of faults) and resource which is not used by any container should be considered as cyber waster. 
 
 Containers, images, custom networks and attached volumes for these unused containers should be cleaned up.
 
-## How to Cleanup
+## How to Clean Up
 
 ### All-In-One Command
 
