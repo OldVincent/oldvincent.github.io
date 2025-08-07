@@ -32,9 +32,9 @@ tag:
 
 | Title | Authors | Status | Role |
 |:------|:--------|:-------|:-----|
-| [Mockingbird: How does LLM perform in general machine learning tasks?](http://arxiv.org/abs/2508.04279) | <u>Haoyu Jia</u>, Yoshiki Obinata, Kento Kawaharazuka, Kei Okada | Under Review | Lead Author |
-| [Remote Life Support Robot Interface System for Global Task Planning and Local Action Expansion Using Foundation Models](https://ieeexplore.ieee.org/document/10769852) | Yoshiki Obinata, <u>Haoyu Jia</u>, Kento Kawaharazuka, Naoaki Kanazawa, Kei Okada | Published, *International Conference on Humanoid Robots (Humanoids)* | Developer for Augmented Reality Client |
-| [Dexterous grasp data augmentation based on grasp synthesis with fingertip workspace cloud and contact-aware sampling](https://www.tandfonline.com/doi/full/10.1080/01691864.2025.2524553) | Liqi Wu, <u>Haoyu Jia</u>, Kento Kawaharazuka, Hirokazu Ishida, Kei Okada | Published, *Advanced Robotics*, 39(12), 730–747. | Developer for Teleoperation Client |
+| [Mockingbird: How does LLM perform in general machine learning tasks? <HopeIcon icon="cib:arxiv" size="1.75rem"/>](http://arxiv.org/abs/2508.04279) | <u>Haoyu Jia</u>, Yoshiki Obinata, Kento Kawaharazuka, Kei Okada | Under Review | Lead Author |
+| [Remote Life Support Robot Interface System for Global Task Planning and Local Action Expansion Using Foundation Models](https://ieeexplore.ieee.org/document/10769852) | Yoshiki Obinata, <u>Haoyu Jia</u>, Kento Kawaharazuka, Naoaki Kanazawa, Kei Okada | Accepted, *International Conference on Humanoid Robots (Humanoids)* | Developer for Augmented Reality Client |
+| [Dexterous grasp data augmentation based on grasp synthesis with fingertip workspace cloud and contact-aware sampling](https://www.tandfonline.com/doi/full/10.1080/01691864.2025.2524553) | Liqi Wu, <u>Haoyu Jia</u>, Kento Kawaharazuka, Hirokazu Ishida, Kei Okada | Accepted, *Advanced Robotics*, 39(12), 730–747. | Developer for Teleoperation Client |
 
 
 ## Competitions
