@@ -2,7 +2,7 @@
 home: true
 portfolio: true
 heroText: Haoyu Jia
-tagline: <p align="center">Resume</p>
+tagline: <i>'Courage is grace under pressure.'<i>
 icon: fa-solid:user-tie
 article: false
 toc: true
@@ -24,9 +24,9 @@ tag:
 ## Education
 
 | Period | University | Degree | Major | Remarks |
-|:-------|:-----------|:-------|:------|:-------:|
-| 2024~Present | The University of Tokyo | Master's Degree Candidate | Creative Informatics | Working on LLM-driven robot agents in [JSK Robotics Laboratory](http://www.jsk.t.u-tokyo.ac.jp/).|
-| 2018~2023 | China University of Petroleum (East China) | Bachelor's Degree | Data Science | Average grade 87.67/100 |
+|:-------|:-----------|:-------|:------|:--------|
+| 2024~Present | The University of Tokyo | Master's Degree Candidate | Creative Informatics | • Working on LLM-driven robot agents in [JSK Robotics Laboratory](http://www.jsk.t.u-tokyo.ac.jp/).|
+| 2018~2023 | China University of Petroleum (East China) | Bachelor's Degree | Data Science | • Average grade: 87.67/100. <br/> • Received the *Outstanding Graduation Thesis Award*. |
 
 ## Publications
 
@@ -39,9 +39,9 @@ tag:
 
 ## Competitions
 
-| Year | Name | Award |
-|:----:|:----:|:-----:|
-| 2021 | National College Robot Competition (RoboMaster) | National First Prize |
+| Year | Name | Award | Rule |
+|:----:|:----:|:-----:|:-----|
+| 2021 | National College Robot Competition ([RoboMaster](https://www.robomaster.com/en-US/robo/rm?type=rm-info)) | National First Prize | Leader of Computer Vision Systems Group |
 
 ## Projects
 
