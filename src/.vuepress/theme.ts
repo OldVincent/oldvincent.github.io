@@ -20,7 +20,7 @@ export default hopeTheme({
   repoDisplay: false,
 
   // 页脚
-  footer: "Page is limited, whereas creativity is not.",
+  footer: "A developer who stops learning is a developer who starts dying.",
   displayFooter: true,
 
   docsRepo: "OldVincent/oldvincent.github.io",
