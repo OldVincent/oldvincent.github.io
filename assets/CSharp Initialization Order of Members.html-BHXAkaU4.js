@@ -1,4 +1,4 @@
-import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as i,c as n,e as t}from"./app-CRdktG83.js";const a={},s=t(`<h2 id="initialization-order-for-a-single-instance" tabindex="-1"><a class="header-anchor" href="#initialization-order-for-a-single-instance"><span>Initialization Order for a Single Instance</span></a></h2><p>Consider a part of CSharp code as follows, and try to guess what is the value of <code>instance.Number</code>:</p><div class="language-c# line-numbers-mode" data-ext="c#" data-title="c#"><pre class="language-c#"><code>
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{o as i,c as n,e as t}from"./app-FeICC7cs.js";const a={},s=t(`<h2 id="initialization-order-for-a-single-instance" tabindex="-1"><a class="header-anchor" href="#initialization-order-for-a-single-instance"><span>Initialization Order for a Single Instance</span></a></h2><p>Consider a part of CSharp code as follows, and try to guess what is the value of <code>instance.Number</code>:</p><div class="language-c# line-numbers-mode" data-ext="c#" data-title="c#"><pre class="language-c#"><code>
 var instance = new SampleClass()
 {
     Number = 3;
