@@ -2,8 +2,8 @@ import { BlogLocaleOptions } from "vuepress-theme-hope";
 
 const options: BlogLocaleOptions = {
   description:
-    "Software development addict. Founder of open-source organization <i>Pygmalions</i>. <br/> \
-    Currently dedicated to Robot Software Engineering and related software infrastures.",
+    "Software development addict. <br/> Founder of open-source organization <i>Pygmalions</i>. <br/> \
+    Currently dedicated to LLM-driven robot agents, and related software infrastructures.",
   intro: "/resume.html",
   avatar: "/author_avatar.png",
   roundAvatar: true,

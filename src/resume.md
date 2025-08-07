@@ -1,4 +1,8 @@
 ---
+home: true
+portfolio: true
+heroText: Haoyu Jia
+tagline: <p align="center">Resume</p>
 icon: fa-solid:user-tie
 article: false
 toc: true
@@ -8,7 +12,16 @@ tag:
 
 # Resume
 
-![Haoyu JIA](/assets/images/resume/机器人合影.jpg =227x238)
+![Being with one of the robots for *RoboMaster Competition*, 2023](/assets/images/resume/机器人合影.jpg =227x238)
+
+## Research Topics
+- LLM-driven Robot Agents
+- Software Infrastructures for LLM Agents
+- Robot Software Engineering
+
+**Tags**: LLM Agent; Software Engineering; Robot;
+
+## Education
 
 | Period | University | Degree | Major | Remarks |
 |:-------|:-----------|:-------|:------|:-------:|
@@ -41,7 +54,7 @@ tag:
 | 2022 | Nebula: robot software development libraries set | • Introduces most frequent used techniques in web development (e.g., auto dependency injection) into robot software development.<br/> • **Received more than 11.5k downloads in total on NuGet.**<br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/Pygmalions/Nebula.Framework)<br/> • <HopeIcon icon="devicon:nuget"/>[NuGet Package](https://www.nuget.org/profiles/VincentJia)|
 | 2022 | Shadow code: an Android application system for Covid-19 exposure alert | • Use Bluetooth-BLE to scan and record exposure history. Data processing server is built on Microsoft Azure micro-service platform.<br/> • **Winner of the Outstanding Prize in 2022 Shandong Province College Software Development Competition.** <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/OldVincent/Shadow-Code)<br/> |
 | 2024 | Pilot Helmet: a teleoperation client for Meta Quest 3 | • Built with Unity, this client displays camera video on the helmet screens and transmit hand movement data to ROS topics. <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/OldVincent/PilotHelmet)<br/> |
-| 2024 | MyCobotSharp: an unofficial .NET client for MyCobot robot arms. | • Support TCP or serial port communication with MyCobot robot arms. <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/Pygmalions/MyCobotSharp) |
+| 2024 | MyCobotSharp: an unofficial .NET client for MyCobot robot arms | • Support TCP or serial port communication with MyCobot robot arms. <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/Pygmalions/MyCobotSharp) |
 | 2024 | BigBrother-Mobile: a robot arm agent that follows users' voice commands | • Implemented as an Android application; it controls MyCobot robot arm through MyCobotSharp. <br/> • Status and functions of robot arms is mapped to the LLM-driven agent. <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/OldVincent/BigBrother-Mobile) |
 | 2025 | Thumbs!: a mobile application that can recommend users based on face identification results | • Frontend application is built with Flutter. <br/> • Backend is designed with microservice structure. <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/UTokyo-PBL/pbl2024-2024-team11) <br/> |
 | 2025 | BigBrother: an extendible agent | • Action module is implemented as an external action server; actions can be configured in MongoDB. <br/> • Users are identified by voice embeddings; users' personal information is injected into the context so that the agent 'know about' who it is talking to. <br/> • <HopeIcon icon="jam:github"/>[Github Repository](https://github.com/OldVincent/BigBrother) |
