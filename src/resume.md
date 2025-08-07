@@ -8,7 +8,7 @@ tag:
 
 # Resume
 
-![Photo](/assets/images/resume/机器人合影.jpg =227x238)
+![Haoyu JIA](/assets/images/resume/机器人合影.jpg =227x238)
 
 | Period | University | Degree | Major | Remarks |
 |:-------|:-----------|:-------|:------|:-------:|
