@@ -7,6 +7,16 @@ export default navbar([
     icon: "ion:home"
   },
   {
+    text: "Posts",
+    link: "/posts/README.md",
+    icon: "ion:document-text"
+  },
+  {
+    text: "Notes",
+    link: "/notes/README.md",
+    icon: "ion:library"
+  },
+  {
     text: "Links",
     icon: "fa-solid:link",
     children: [
@@ -23,7 +33,7 @@ export default navbar([
           { text: "Pygmalions", icon: "vaadin:group", link: "https://github.com/Pygmalions" },
           { text: "UTokyo JSK Lab", icon: "ion:school", link: "http://www.jsk.t.u-tokyo.ac.jp/" }
         ]
-      }
+      },
     ],
   },
 ]);
