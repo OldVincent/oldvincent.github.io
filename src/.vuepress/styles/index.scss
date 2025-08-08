@@ -1,11 +1,16 @@
 // place your custom styles here
 
-// Make 'heroText' align to the center.
+// 使博主头像为圆形
+.vp-blogger-avatar {
+  border-radius: 50%;
+}
+
+// 使'heroText'居中对齐
 #main-title {
   text-align: center;
 }
 
-// Make 'tagline' align to the center.
+// 使'tagline'居中对齐
 #main-description {
   text-align: center;
 }

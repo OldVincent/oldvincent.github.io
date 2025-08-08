@@ -2,7 +2,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 import author from "./author.js"
-import plugins from "./plugins.js"
+import plugins from "./plugins.js";
+import markdown from "./markdown.js";
 
 export default hopeTheme({
   hostname: "https://oldvincent.github.io",
@@ -11,8 +12,6 @@ export default hopeTheme({
     name: "Haoyu Jia",
     url: "https://github.com/OldVincent",
   },
-
-  iconAssets: "iconify",
 
   logo: "/logo.svg",
 
@@ -33,8 +32,9 @@ export default hopeTheme({
   // 是否显示编辑链接
   editLink: false,
 
+  markdown: markdown,
+
   pageInfo: ["Author", "Date", "Word", "ReadingTime", "Category", "Tag"],
-  
 
   // 设置暗黑模式为手动切换
   darkmode: "toggle",
@@ -49,6 +49,5 @@ export default hopeTheme({
   // 博客相关数据热更新
   hotReload: true,
 
-  // 在这里配置主题提供的插件
-  plugins
+  plugins: plugins
 });

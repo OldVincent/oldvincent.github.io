@@ -1,6 +1,6 @@
 ---
 home: true
-layout: BlogHome
+layout: Blog
 icon: ion:home
 title: Home
 heroImage: /logo.svg

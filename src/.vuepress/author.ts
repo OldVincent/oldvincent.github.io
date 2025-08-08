@@ -6,7 +6,6 @@ const options: BlogLocaleOptions = {
     Currently dedicated to LLM-driven robot agents, and related software infrastructures.",
   intro: "/resume.html",
   avatar: "/author_avatar.png",
-  roundAvatar: true,
   medias: {
     Email: "mailto:jia_vincent@outlook.com",
     GitHub: "https://github.com/OldVincent",

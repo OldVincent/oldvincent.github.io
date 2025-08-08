@@ -11,8 +11,7 @@ tag:
 
 Consider a part of CSharp code as follows, and try to guess what is the value of `instance.Number`:
 
-```c#
-
+```csharp
 var instance = new SampleClass()
 {
     Number = 3;
