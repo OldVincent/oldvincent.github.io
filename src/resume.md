@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Haoyu Jia
-tagline: <i>'Courage is grace under pressure.'<i>
+tagline: <i>'Courage is grace under pressure.'</i>
 icon: fa-solid:user-tie
 article: false
 toc: true
@@ -11,7 +11,7 @@ tag:
 
 # Resume
 
-![Being with one of the robots for *RoboMaster* *Competition*, 2023 =227x238](/assets/images/resume/机器人合影.jpg)
+![Being with one of the robots for *RoboMaster Competition*, 2023 =227x238](/assets/images/resume/机器人合影.jpg)
 
 ## Research Topics
 - LLM-driven Robot Agents
