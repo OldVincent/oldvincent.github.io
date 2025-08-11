@@ -23,8 +23,8 @@ export default navbar([
       {
         text: "Personal",
         children: [
-          { text: "Github", icon: "mdi:github", link: "https://github.com/OldVincent" },
-          { text: "Nuget", icon: "simple-icons:nuget", link: "https://www.nuget.org/profiles/VincentJia" },
+          { text: "GitHub", icon: "mdi:github", link: "https://github.com/OldVincent" },
+          { text: "NuGet", icon: "simple-icons:nuget", link: "https://www.nuget.org/profiles/VincentJia" },
         ],
       },
       {
