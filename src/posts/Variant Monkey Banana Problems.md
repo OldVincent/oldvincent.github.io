@@ -11,9 +11,10 @@ isOriginal: true
 
 ### From a Monkey-banana Problem Perspective
 
+Haoyu JIA
+
 <small>
-Haoyu JIA <br/>
-Master Candidate, <a href="http://www.jsk.t.u-tokyo.ac.jp/" target="_blank">JSK Robotics Laboratory</a>, The University of Tokyo <br/>
+Master's Candidate, <a href="http://www.jsk.t.u-tokyo.ac.jp/" target="_blank">JSK Robotics Laboratory</a>, The University of Tokyo <br/>
 <a href="mailto://jia@jsk.imi.i.u-tokyo.ac.jp">jia@jsk.imi.i.u-tokyo.ac.jp</a>
 </small>
 
