@@ -46,6 +46,8 @@ const options: ThemeMarkdownOptions = {
         notationErrorLevel: true,
         notationWordHighlight: true
     },
+    // 启用幻灯片
+    revealjs: true,
 };
 
 export default options;
