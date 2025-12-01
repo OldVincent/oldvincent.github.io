@@ -7,14 +7,14 @@ export default sidebar({
     {
       text: "Insights",
       icon: "pixelarticons:article-multiple",
-      prefix: "posts/",
+      prefix: "insights/",
       children: "structure",
       collapsible: true,
     },
     {
-      text: "Notes",
+      text: "Reports",
       icon: "mdi:note-edit",
-      prefix: "notes/",
+      prefix: "reports/",
       children: "structure",
       collapsible: true,
     },

@@ -5,7 +5,8 @@ date: 2024-07-23
 isOriginal: true
 tag:
  - Docker
- - Server Maintaince
+ - Fundamentals
+ - Server Maintenance
 ---
 
 # Useful Commands for Maintaining Docker Servers

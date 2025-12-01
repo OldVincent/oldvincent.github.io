@@ -8,12 +8,12 @@ export default navbar([
   },
   {
     text: "Insights",
-    link: "/posts/README.md",
+    link: "/insights/README.md",
     icon: "ion:document-text"
   },
   {
-    text: "Notes",
-    link: "/notes/README.md",
+    text: "Reports",
+    link: "/reports/README.md",
     icon: "ion:library"
   },
   {

@@ -3,6 +3,9 @@ layout: Slides
 title: On the Design of LLM-driven Robot Agents - Variant Monkey Banana Problems
 date: 2025-08-11
 isOriginal: true
+tags:
+ - Slides
+ - LLM Agents
 ---
 
 @slidestart
