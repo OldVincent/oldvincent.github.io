@@ -15,7 +15,7 @@ Haoyu JIA
 
 <small>
 Master's Candidate, <a href="http://www.jsk.t.u-tokyo.ac.jp/" target="_blank">JSK Robotics Laboratory</a>, The University of Tokyo <br/>
-<a href="mailto://jia@jsk.imi.i.u-tokyo.ac.jp">jia@jsk.imi.i.u-tokyo.ac.jp</a>
+<a href="mailto:Haoyu%20Jia<jia@jsk.imi.i.u-tokyo.ac.jp>">jia@jsk.imi.i.u-tokyo.ac.jp</a>
 </small>
 
 ---
@@ -244,7 +244,7 @@ Master's Candidate, <a href="http://www.jsk.t.u-tokyo.ac.jp/" target="_blank">JS
 
 Please email me for further discussion:
 
-<a href="mailto://jia@jsk.imi.i.u-tokyo.ac.jp">jia@jsk.imi.i.u-tokyo.ac.jp</a>
+<a href="mailto:Haoyu%20Jia<jia@jsk.imi.i.u-tokyo.ac.jp>">jia@jsk.imi.i.u-tokyo.ac.jp</a>
 
 <small>
 Haoyu Jia, <a href="http://www.jsk.t.u-tokyo.ac.jp/" target="_blank">JSK Robotics Laboratory</a>, The University of Tokyo
