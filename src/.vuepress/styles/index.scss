@@ -1,16 +1,26 @@
 // place your custom styles here
 
-// 使博主头像为圆形
+// Make the avatar round.
 .vp-blogger-avatar {
   border-radius: 50%;
 }
 
-// 使'heroText'居中对齐
+// Center the 'heroText'.
 #main-title {
   text-align: center;
 }
 
-// 使'tagline'居中对齐
+// Center 'tagline'.
 #main-description {
   text-align: center;
+}
+
+.footer-quote {
+  text-align: right;
+  opacity: .8;
+  font-size: 0.9em;
+}
+
+blockquote .footer-quote {
+  margin-top: .5rem;
 }
