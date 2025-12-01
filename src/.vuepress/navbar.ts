@@ -7,7 +7,7 @@ export default navbar([
     icon: "ion:home"
   },
   {
-    text: "Posts",
+    text: "Insights",
     link: "/posts/README.md",
     icon: "ion:document-text"
   },

@@ -5,7 +5,7 @@ export default sidebar({
     "",
     "/resume",
     {
-      text: "Posts",
+      text: "Insights",
       icon: "pixelarticons:article-multiple",
       prefix: "posts/",
       children: "structure",
