@@ -1,6 +1,6 @@
 import {defineClientConfig} from '@vuepress/client'
 import TDesign from 'tdesign-vue-next';
-import {watch} from "vue";
+import {onMounted, watch} from "vue";
 import {useDarkMode} from "vuepress-theme-hope/client";
 
 export default defineClientConfig({
@@ -10,14 +10,17 @@ export default defineClientConfig({
   },
   setup() {
     const {isDarkMode} = useDarkMode();
-    const html = document.documentElement
 
-    watch(isDarkMode, (value: boolean) => {
-      if (value) {
-        html.setAttribute('theme-mode', 'dark')
-      } else {
-        html.removeAttribute('theme-mode')
-      }
-    }, {immediate: true})
+    onMounted(() => {
+      const html = document.documentElement
+
+      watch(isDarkMode, (value: boolean) => {
+        if (value) {
+          html.setAttribute('theme-mode', 'dark')
+        } else {
+          html.removeAttribute('theme-mode')
+        }
+      }, {immediate: true})
+    })
   }
 })

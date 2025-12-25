@@ -6,7 +6,7 @@ export default defineUserConfig({
 
   lang: "en-US",
   title: "Code Enthusiast",
-  description: "Haoyu's Blog.",
+  description: "Haoyu's Personal Website",
 
   head: [
     ["link", {rel: "preconnect", href: "https://fonts.googleapis.com"}],
@@ -20,5 +20,4 @@ export default defineUserConfig({
   ],
   
   theme,
-
 });
