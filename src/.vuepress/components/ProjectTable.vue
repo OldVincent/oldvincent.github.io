@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {CheckboxGroup, FilterValue, RadioGroup, TableProps, TableRowData} from "tdesign-vue-next";
+import {CheckboxGroup, FilterValue, RadioGroup, TableProps} from "tdesign-vue-next";
 import {ChevronRightCircleIcon,} from 'tdesign-icons-vue-next';
 import enConfig from 'tdesign-vue-next/es/locale/en_US';
 import {ProjectData, ProjectStatus} from "./ProjectData";
@@ -126,7 +126,7 @@ function onFilterData(filters: FilterValue) {
   };
 }
 
-const onFilterChange: TableProps['onFilterChange'] = (filters, context) => {
+const onFilterChange: TableProps['onFilterChange'] = (filters) => {
   tableFilterValue.value = {
     ...filters,
     tags: filters.tags || []

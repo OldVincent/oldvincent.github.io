@@ -1,5 +1,4 @@
 import {ProjectData, ProjectStatus} from "../components/ProjectData.js";
-import {h} from "vue";
 
 export const projects: ProjectData[] = [
   {
