@@ -1,20 +1,15 @@
 <script setup lang="ts">
 import {CheckboxGroup, FilterValue, RadioGroup, TableProps, TableRowData} from "tdesign-vue-next";
-import {
-  ChevronRightCircleIcon,
-  ChevronRightIcon,
-  CheckCircleFilledIcon,
-  ErrorCircleFilledIcon,
-  CloseCircleFilledIcon,
-} from 'tdesign-icons-vue-next';
+import {ChevronRightCircleIcon,} from 'tdesign-icons-vue-next';
 import enConfig from 'tdesign-vue-next/es/locale/en_US';
 import {ProjectData, ProjectStatus} from "./ProjectData";
 import "../styles/t-design.scss"
-import {ref} from "vue";
+import {ref, watch} from "vue";
 
 const properties = withDefaults(defineProps<{
   projects: ProjectData[]
   withYear: boolean | string
+  profile: string
 }>(), {
   withYear: false
 })
@@ -88,11 +83,10 @@ const tablePagination = ref<TableProps['pagination']>({
   defaultCurrent: 1,
 });
 
-function setTableData(data: TableRowData[]) {
-  tableData.value = data;
-  if (tablePagination.value != undefined)
+watch(tableData, (data: TableProps['data']) => {
+  if (tablePagination.value != undefined && data != undefined)
     tablePagination.value.total = data.length;
-}
+})
 
 function onFilterData(filters: FilterValue) {
   const selectedTags = filters.tags as string[];
@@ -141,7 +135,7 @@ const onFilterChange: TableProps['onFilterChange'] = (filters, context) => {
   const timer = setTimeout(() => {
     clearTimeout(timer);
     const filterResult = onFilterData(filters);
-    setTableData(filterResult.data)
+    tableData.value = filterResult.data;
     if (filterResult.conditions.length > 0) {
       if (filterResult.data.length == 0) {
         tableFilterRow.value = (h) => h('div', {}, [
@@ -170,7 +164,7 @@ const onFilterChange: TableProps['onFilterChange'] = (filters, context) => {
 
 const onResetFilters = () => {
   tableFilterValue.value = {};
-  setTableData(projects);
+  tableData.value = projects;
 }
 
 const tableExpandableRow: TableProps['expandedRow'] = (h, {row}) => {
@@ -198,8 +192,7 @@ function onSortData(sort: TableProps['sort']) {
           .concat()
           .sort((a, b) =>
               (sort!.descending ? b[sort.sortBy] - a[sort.sortBy] : a[sort.sortBy] - b[sort.sortBy]));
-    }
-    else {
+    } else {
       tableData.value = tableData.value!.concat();
     }
     clearTimeout(timer);
@@ -217,6 +210,7 @@ const onSortChange: TableProps['onSortChange'] = (value) => {
   <div class=".t-customized">
     <t-config-provider :global-config="enConfig">
       <t-table
+          table-layout="fixed"
           row-key="index"
           :data="tableData"
           :pagination="tablePagination"
@@ -238,10 +232,17 @@ const onSortChange: TableProps['onSortChange'] = (value) => {
             </p>
             <t-link
                 v-if="(row as ProjectData).package !== undefined && (row as ProjectData).status === ProjectStatus.Released"
-                :href="`https://www.nuget.org/packages${(row as ProjectData).package!.toString()}`"
-                target="_blank">
-              <t-image
+                :href="`https://www.nuget.org/packages/${(row as ProjectData).package!.toString()}`" target="_blank">
+              <img style="pointer-events: none; user-select: none;"
                   :src="`https://img.shields.io/nuget/dt/${(row as ProjectData).package!.toString()}?logo=nuget&color=blue&&label=Downloads`"/>
+            </t-link>
+            <!-- Manually Calculated Downloads -->
+            <t-link
+                v-if="(row as ProjectData).downloads !== undefined"
+                :href="properties.profile"
+                target="_blank">
+              <img style="pointer-events: none; user-select: none;"
+                  :src="`https://img.shields.io/badge/Downloads-${(row as ProjectData).downloads!}-blue?logo=nuget`"/>
             </t-link>
           </div>
         </template>
