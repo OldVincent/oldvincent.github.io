@@ -116,14 +116,24 @@ and these C# projects attempt to uplift it to a more comprehensive role to fully
 
 ## Appendix
 
+### Packages
+
+<NugetStatistics author="VincentJia" />
+
+*Your browser fetches these statistics in real-time from [NuGet.org](https://www.nuget.org/profiles/VincentJia).*
+*Refresh the page to get the latest numbers.*
+
 ### Projects
 
-*Click the arrow to view project details.*
+*Rows with the '<ChevronRightCircleIcon/>' icon are expandable;*
+*click the icon to view project details.*
 
-<ProjectTable :projects="projects" withYear />
+<ProjectTable :projects="projects" profile="https://www.nuget.org/profiles/VincentJia" withYear />
 
 <script setup lang="ts">
 import ProjectTable from "@source/.vuepress/components/ProjectTable.vue";
-import {projects} from "@source/.vuepress/data/projects.ts";
+import NugetStatistics from "@source/.vuepress/components/NugetStatistics.vue";
+import {projects} from "@source/.vuepress/data/Projects.ts";
+import {ChevronRightCircleIcon,} from 'tdesign-icons-vue-next';
 
 </script>
