@@ -2,6 +2,12 @@
 $theme-color: #096dd9;
 
 // Fonts
-$vp-font: '"Noto Sans SC", "Noto Sans JP", sans-serif';
-$vp-font-heading: '"REM", "Noto Sans SC", "Noto Sans JP", sans-serif';
-$vp-font-mono: '"JetBrains Mono", "Noto Sans SC", "Noto Sans JP", monospace';
+$vp-font: "Noto Sans SC";
+$vp-font-heading: "Noto Sans SC";
+$vp-font-mono: "JetBrains Mono";
+
+:root {
+  --vp-font: "Noto Sans SC", "Noto Sans JP", "sans-serif";
+  --vp-font-heading: "Noto Sans SC", "Noto Sans JP", "sans-serif";
+  --vp-font-mono: "JetBrains Mono", "Noto Sans SC", "Noto Sans JP", "monospace";
+}

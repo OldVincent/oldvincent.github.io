@@ -1,0 +1,37 @@
+@use "./palette.scss";
+
+:root {
+  --td-font-family: var(--vp-font);
+  --td-font-family-medium: var(--vp-font-heading);
+
+  --td-font-size-body: 1rem;
+  --td-font-size-link-small: 0.8rem;
+  --td-font-size-link-medium: 1rem;
+  --td-font-size-link-large: 1.2rem;
+  --td-font-size-mark-small: 0.8rem;
+  --td-font-size-mark-medium: 1rem;
+  --td-font-size-body-small: 0.8rem;
+  --td-font-size-body-medium: 1rem;
+  --td-font-size-body-large: 1.2rem;
+  --td-font-size-title-small: 1rem;
+  --td-font-size-title-medium: 1.2rem;
+  --td-font-size-title-large: 1.3rem;
+  --td-font-size-title-extraLarge: 1.4rem;
+  --td-font-size-headline-small: 1.7rem;
+  --td-font-size-headline-medium: 2rem;
+  --td-font-size-headline-large: 2.5rem;
+  --td-font-size-display-medium: 3.5rem;
+  --td-font-size-display-large: 4.5rem;
+
+  --td-text-color-primary: var(--vp-c-text);
+  --td-text-color-secondary: var(--vp-c-text);
+
+  --td-text-color-placeholder: rgb(0,0,0,0.7);
+}
+
+:root[theme-mode="dark"] {
+  --td-text-color-primary: var(--vp-c-text);
+  --td-text-color-secondary: var(--vp-c-text);
+
+  --td-text-color-placeholder: rgba(255, 255, 255, 0.7);
+}
