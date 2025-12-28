@@ -17,6 +17,6 @@ This page lists detailed information about my projects.
 
 <script setup lang="ts">
 import ProjectTable from "@source/.vuepress/components/ProjectTable.vue";
-import {projects} from "@source/.vuepress/data/projects.ts";
+import {projects} from "@source/.vuepress/data/Projects.ts";
 
 </script>
