@@ -18,5 +18,12 @@ export default sidebar({
       children: "structure",
       collapsible: true,
     },
+    {
+      text: "Tables",
+      icon: "mdi:table-multiple",
+      prefix: "tables/",
+      children: "structure",
+      collapsible: true,
+    },
   ],
 });

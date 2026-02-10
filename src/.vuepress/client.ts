@@ -2,9 +2,12 @@ import {defineClientConfig} from '@vuepress/client'
 import TDesign from 'tdesign-vue-next';
 import {onMounted, watch} from "vue";
 import {useDarkMode} from "vuepress-theme-hope/client";
+import TablePage from "./layouts/TablePage.vue";
 
 export default defineClientConfig({
-  layouts: {},
+  layouts: {
+    TablePage
+  },
   enhance: (context) => {
     context.app.use(TDesign);
   },
