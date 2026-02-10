@@ -38,6 +38,7 @@ toc: true
 
 | Title                                                                                                                                                                                      | Authors                                                                           | Status                                                                   | Contribution                                                                                                                                                         |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------|:-------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Toward Formalizing LLM-Based Agent Designs through Structural Context Modeling and Semantic Dynamics Analysis <VPIcon icon="cib:arxiv" size="1.75rem"/>](http://arxiv.org/abs/2602.08276) | <u>Haoyu Jia</u>, Kento Kawaharazuka, Kei Okada                                   | Under Review                                                             | Lead Author;                                                                                                                                                         |
 | [Mockingbird: How does LLM perform in general machine learning tasks? <VPIcon icon="cib:arxiv" size="1.75rem"/>](http://arxiv.org/abs/2508.04279)                                          | <u>Haoyu Jia</u>, Yoshiki Obinata, Kento Kawaharazuka, Kei Okada                  | Under Review                                                             | Lead Author; Designing and implementing the self-reflection framework to leverage the in-context learning ability of LLMs in conventional machine learning problems. |
 | [Remote Life Support Robot Interface System for Global Task Planning and Local Action Expansion Using Foundation Models](https://ieeexplore.ieee.org/document/10769852)                    | Yoshiki Obinata, <u>Haoyu Jia</u>, Kento Kawaharazuka, Naoaki Kanazawa, Kei Okada | Accepted, *International Conference on Humanoid Robots (Humanoids 2024)* | Designing and implementing an AR interaction interface that enables users to issue commands by dragging and manipulating virtual objects.                            |
 | [Dexterous grasp data augmentation based on grasp synthesis with fingertip workspace cloud and contact-aware sampling](https://www.tandfonline.com/doi/full/10.1080/01691864.2025.2524553) | Liqi Wu, <u>Haoyu Jia</u>, Kento Kawaharazuka, Hirokazu Ishida, Kei Okada         | Accepted, *Advanced Robotics*, 39(12), 730–747.                          | Developing a VR application that captures hand-tracking data and synthesizes real-time VR views from camera images for immersive robot teleoperation.                |
@@ -52,14 +53,14 @@ toc: true
 
 - **Languages**: C#, C++, Python, Java, SQL
 - **Frameworks**:
-  - 3D, VR, AR and MR: Unity, Unreal Engine
-  - Desktop Apps: WPF, Qt, WinForms
-  - Mobile Apps: Flutter, Android SDK
-  - Web: ASP.NET, Blazor
-  - Machine Learning: Keras, PyTorch, TensorFlow, Gymnasium
-  - Robotics: ROS, ROS2, OpenCV, CUDA
-  - Code Generation: Roslyn, Emit
-  - Data Analysis: SciPy, Scikit-Learn, Pandas
+    - 3D, VR, AR and MR: Unity, Unreal Engine
+    - Desktop Apps: WPF, Qt, WinForms
+    - Mobile Apps: Flutter, Android SDK
+    - Web: ASP.NET, Blazor
+    - Machine Learning: Keras, PyTorch, TensorFlow, Gymnasium
+    - Robotics: ROS, ROS2, OpenCV, CUDA
+    - Code Generation: Roslyn, Emit
+    - Data Analysis: SciPy, Scikit-Learn, Pandas
 - **Middlewares**: Redis, MongoDB, ActiveMQ
 
 ## Selected Projects
