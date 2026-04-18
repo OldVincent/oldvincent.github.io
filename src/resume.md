@@ -34,6 +34,13 @@ toc: true
 | 2019~2023 | China University of Petroleum (East China) | Bachelor's Degree         | Data Science         | <ul> <li>Average grade: 87.67/100.</li> <li>Received the *Outstanding Graduation Thesis Award*.</li> </ul>                                                                                                                               |
 | 2024~2026 | The University of Tokyo                    | Master's Degree Candidate | Creative Informatics | <ul> <li>Average grade: 3.7/4.0.</li> <li>Advised by Prof. [Kei Okada](http://www.jsk.t.u-tokyo.ac.jp/~k-okada/index.html) in [JSK Robotics Laboratory](http://www.jsk.t.u-tokyo.ac.jp/), working on LLM-driven robot agents.</li> </ul> |
 
+## Professional Experience
+
+| Period    | Company | Location        | Title                            |
+|:----------|:--------|:----------------|:---------------------------------|
+| 2026~     | AGIBOT  | Shanghai, China | SDK Research Engineer            |
+
+
 ## Selected Publications
 
 | Title                                                                                                                                                                                      | Authors                                                                           | Status                                                                   | Contribution                                                                                                                                                         |
